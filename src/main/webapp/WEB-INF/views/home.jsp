@@ -10,5 +10,9 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+
+<c:if test="${not empty member}">
+<a href="./notice/notuceWrite">Notice Write</a>
+</c:if>
 </body>
 </html>
